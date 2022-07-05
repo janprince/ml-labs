@@ -2,7 +2,7 @@ from model_repr import compute_model_output
 
 def compute_cost(x, y, w, b,):
     """
-    Computes the cost of a linear regression model.
+    Computes the cost of a linear regression model with one variable.
     :param x: an array of shape (n, 1) containing the input data
     :param y: an array of shape (n, 1) containing the output data
     :param w: a scalar value of the weight
